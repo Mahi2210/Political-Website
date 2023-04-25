@@ -1752,6 +1752,7 @@ footer .widget{
     width: 100%;
     height: 48vh;
     display: block;
+    overflow: hidden;
 }
 footer .widget .row{
     width: 80%;
@@ -2132,6 +2133,9 @@ footer .copyright .container .scroll-top:hover{
 @media(max-width:530px) {
     #section1 .caption .btn{
         padding: 10px 13px 10px 13px;
+    }
+    #section1 .row .container .Icons{
+        display: none;
     }
 }
 @media(max-width:600px){
